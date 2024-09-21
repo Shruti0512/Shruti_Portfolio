@@ -1,7 +1,7 @@
 ![A preview](https://github.com/nirajprakash/nirajprakash.github.io/blob/main/images/banner.png)
 
 # Personal Portfolio 
-> [nirajprakash.github.io/](https://nirajprakash.github.io/)
+> [Shruti0512.github.io/](https://github.com/Shruti0512)
 
 - **Framework**: [Angular14](https://angular.io/)
 - **Styling**: [SCSS](https://sass-lang.com/)
@@ -18,16 +18,14 @@
 
 ## Sections 📚
 ✔️ About\
-✔️ ShowCases : Clients Projects, Icons, Logos \
+✔️ ShowCases : Education , Experiences \
 ✔️ Expertise \
-✔️ Tech Stack \
+✔️ Tools and Technologies \
 ✔️ Contact \
 
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/nirajprakash/nirajprakash.github.io.git
-$ cd braydoncoyer.dev
 $ npm install
 $ ng serve
 ```
