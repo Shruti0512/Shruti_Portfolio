@@ -15,21 +15,10 @@ const routes =RouterModule.forChild( [
     path: "privacy",
     component: TaruPrivacyComponent
   },
-//   {
-//     path: "deletion",
-//     component: DeletionComponent
-//   },
-//   {
-//     path: "",
-//     component: DefaultComponent
-//   }
 ]);
 
 @NgModule({
   declarations: [
-    // PrivacyComponent,
-    // DefaultComponent,
-    // DeletionComponent
   
     TaruPrivacyComponent
   ],

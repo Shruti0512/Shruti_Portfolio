@@ -20,9 +20,7 @@ const routes =RouterModule.forChild( [
 
 @NgModule({
   declarations: [
-    // PrivacyComponent,
-    // DefaultComponent,
-    // DeletionComponent
+
   ],
   imports: [
     CommonModule,

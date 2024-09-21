@@ -1,17 +1,7 @@
 <div class="tb-position--relative main" ngClass.xs="xs" ngClass.sm="sm" #animRefView>
-    <!-- <div class="tb-position--absolute tb-height--full"> -->
-    <!-- <div class="background-bar">
-
-        <div class="tb-container vertical-line-container" fxLayoutAlign="space-between stretch">
-            <div class="vertical-lines"></div>
-            <div class="vertical-lines"></div>
-            <div class="vertical-lines"></div>
-        </div>
-    </div> -->
     <div class="tb-container tb-position--relative container">
         <div fxLayout="column" fxLayoutAlign="start stretch">
-            <!-- <p>home-about works!</p> -->
-
+           
             <div [@transitionText]="{value:_mTriggerAnim, params:{animDelay:100}}" fxLayout="row"
                 fxLayoutAlign="start end">
                 <h4 class="title current-typo--h4 tb-flex--shrink-0">About Me.</h4>
@@ -35,15 +25,11 @@
                     <p [@transitionText]="{value:_mTriggerAnim, params:{animDelay:200}}"
                         class="current-typo--body1-medium tb-color--black-54">My objective is to make development as easy as possible with simple and beautiful designs and organised code
                         patterns.</p>
-                    <!-- <p [@transitionText]="{value:_mTriggerAnim, params:{animDelay:300}}"
-                        class="current-typo--body1-medium tb-color--black-54">I have built over 30+ products in last 5
-                        years.</p> -->
 
                     <div ngClass.gt-sm="tb-height--56" ngClass.sm="tb-height--46" ngClass.xs="tb-height--32"></div>
 
                     <div [@transitionText]="{value:_mTriggerAnim, params:{animDelay:300}}" fxLayout="row">
                         <div fxFlex fxLayout="column" fxLayoutGap="12" fxLayoutAlign="start start">
-                            <!-- <h2 class="title current-typo--h3-light">6 months</h2> -->
                             <h4 class="title current-typo--h6">I am a fresher ready to hone and apply my skills as much as possible.</h4>
 
                         </div>
@@ -110,19 +96,6 @@
 
                             </a>
 
-                        <!-- <div class="btn-area-hire">
-
-                            <a mat-ripple class="unlink btn-hire tb-color-bg--white" fxLayout="row"
-                                fxLayoutAlign="center center"
-                                href="https://gitter.im/JunkieLabs/common?utm_source=share-link&utm_medium=link&utm_campaign=share-link/"
-                                target="_blank">
-
-                                <p class="current-typo--button-medium tb-font-weight--medium tb-color--black">Hire me
-                                </p>
-                            </a>
-
-                        </div> -->
-
                     </div>
 
                 </div>
@@ -136,9 +109,6 @@
                 </div>
 
             </div>
-
-
-
         </div>
     </div>
 </div>
