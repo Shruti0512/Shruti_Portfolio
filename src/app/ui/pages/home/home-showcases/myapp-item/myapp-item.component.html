@@ -1,0 +1,28 @@
+<a class="main tb-position--relative unlink" ngClass.xs="xs" ngClass.sm="sm" 
+    fxLayout="column" #animRefView>
+    <div class="background" [ngStyle]="{background: _mModel?.background}"></div>
+
+    <div fxLayout="column" fxLayoutGap="6" fxLayoutAlign="start stretch" class="content tb-position--relative">
+
+        <!-- <h4 class="current-typo--h5 tb-text-align--center tb-color--black" ngClass.xs="current-typo--h6">{{_mModel?.Name}}</h4> -->
+
+
+        
+        <div ngClass.gt-xs="tb-height--20" ngClass.xs="tb-height--12"></div>
+
+        <div class="tb-padding--24-36" ngClass.xs="tb-padding--12-20" fxLayout="row" fxLayoutAlign="start center">
+
+            <div >
+                <h6 class="current-typo--h4-bold tb-color--black">
+                    {{_mModel?.name}}
+                </h6>
+                <p>
+                    <b>{{_mModel?.caption}}</b>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</a>
